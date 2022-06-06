@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form {
+  margin: 140px auto;
+  width: 100%;
+  border: 1px solid #000;
+  padding: 0;
+}
+
+.small-container {
+  box-sizing: border-box;
+}
+
+.activebg {
+  background-color: bisque;
+}
+
+.checkclass {
+  display: flex;
+  align-items: center;
+  height: 46px;
+  width: 100%;
+  flex: 2;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  color: rgb(0, 69, 0);
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+}
+
+.del-btn {
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.del-display {
+  display: none;
+}
+
+.edit-display {
+  display: none;
+}
+
+.trashIcon,
+.delIcon {
+  font-size: 14px;
+  width: 8px;
+}
+
+.crossinput {
+  text-decoration: line-through;
+}
+
+.listItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-color: rgb(195, 195, 195); */
+  padding: 2px 18px;
+  border-bottom: 1px solid #000;
+}
+
+label {
+  margin-left: 18px;
+
+  /* font-size: 18px; */
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  font-style: italic;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.add-btn {
+  padding: 7px;
+  margin: auto;
+
+  /* display: block; */
+}
+
+.clear {
+  text-align: center;
+  background-color: rgb(200, 200, 200);
+  padding: 15px;
+}
