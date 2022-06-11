@@ -10,8 +10,7 @@ export const cont = document.querySelector('.small-container');
 const clrBtn = document.querySelector('.clear');
 
 const form = document.querySelector('form');
-
-function displayitems(chores) {
+const display = (chores)=>{
   const div = document.createElement('div');
   div.innerHTML = `
 <div class ="checkclass">
